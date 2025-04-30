@@ -1,6 +1,6 @@
 import gradio as gr
 from transformers import MarianMTModel, MarianTokenizer
-
+import os
 # Modelos substitutos atualizados
 MODEL_MAP = {
     ("Português", "Inglês"): ("Helsinki-NLP/opus-mt-ROMANCE-en", ">>en<<"),
@@ -41,4 +41,5 @@ iface = gr.Interface(
 
 # Executa a interface
 if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 8080))
     iface.launch(server_name="0.0.0.0", server_port=8080)
