@@ -87,6 +87,6 @@ Sinta-se à vontade para contribuir com o projeto! Caso tenha sugestões de melh
 basta abrir uma issue ou enviar um pull request. 
 
 # 🔗 Links Úteis 
-Transformers: https://huggingface.co/transformers/
+Transformers: https://huggingface.co/transformers/ 
 Gradio: https://gradio.app/
 Helsinki-NLP Models: https://huggingface.co/models
